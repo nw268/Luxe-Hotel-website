@@ -1,0 +1,249 @@
+h1 {
+  background-image:url("cropmanor.jpg");
+  width: 100%;
+  margin:0px;
+  padding-top:50px;
+  padding-bottom:50px;
+  text-align: center;
+  font-family: 'Great Vibes', cursive;
+  font-size: 60px;
+  font-weight: lighter;
+  }
+
+
+.navi{
+    margin: 0;
+    padding: 0px;
+    background-color: #717171;
+    opacity: 0.4;
+    text-align: center;
+    width: 100%;
+    /* font-family: 'Amiri', serif; */
+    font-family: 'Source Sans Pro', sans-serif;
+  
+  }
+   
+ .navi a {
+    /* display: block; */
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    padding-left: 5em;
+    padding-right: 5em;
+    text-decoration: none;
+   
+  }
+  
+.navi a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  .room1text{
+    display: inline-block;
+    /* max-width: 49%; */
+    text-align: left;
+    flex:1;
+    margin: 0 auto;
+    min-width: 300px;
+    max-width: 400px;
+    padding-right: 5%;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+    
+  }
+
+  .bedroomimg{
+    display:inline-block;
+    /* width: 360px; */
+    /* max-height: 280; */
+    flex:2;
+    margin: 0px;
+    padding: 0px;
+    padding-right: 5%;
+    flex-wrap:wrap;
+  
+  }
+
+  .room1{
+    transition: box-shadow .3s;
+    text-align: center;
+    flex-wrap: wrap;
+    display: flex;
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: #FBFAEF;
+    border-radius:10px;
+    border: 1px solid #ccc;
+    margin-top: 5%;
+    box-shadow: 0px 0px 11px grey;
+
+    
+    
+  }
+
+  .room1:hover {
+    box-shadow: 0px 0px 11px black;
+  }
+
+  #room1img{
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+
+
+ h3{
+  font-family: 'Great Vibes', cursive;
+  font-size: 30px;
+  font-weight: lighter;
+  padding-left: 5%;
+ }
+
+ .formtitle{
+   padding-left: 10%;
+ }
+
+ .row1col1{
+   display:inline-block;
+   margin: 0 auto;border-radius:10px;
+ }
+
+  
+  
+ .row1col2{
+  display: block;
+  margin: 0 auto;
+  border-radius:10px;
+ }
+
+
+  .names{
+    padding-left: 10%;
+  
+  }
+
+#fname{
+  border-radius:5px;
+}
+
+#lname{
+  border-radius:5px;
+
+
+}
+#email{
+  width: 100%;
+  padding-left: 1%;
+  border-radius:5px;
+ }
+
+ .emaile{
+   width: 400px;
+   padding-left: 5%;
+   border-radius:10px;
+   padding-top: 1%;
+   padding-right: 1%;
+ }
+
+ #roomtypee{
+   width:400px;
+   padding-left: 5%;
+   text-align: center;
+   border-radius:5px;
+ }
+
+ .roomtype{
+   padding-left: 5%;
+   text-align: center;
+   border-radius:10px;
+ }
+
+.guestadult{
+  display:inline-block;
+  margin:0px;
+  padding-left: 25px;
+  border-radius:10px;
+   
+}
+
+.guests{
+  width:100%;
+  padding-left: 5%;
+}
+
+
+div.guestchild{
+ display: inline-block;
+ padding-left: 25px;
+ width:150px;
+ margin:0px;
+}
+
+.arrivedate{
+  display:inline-block;
+  margin:0 auto;
+  border-radius:10px;
+  
+}
+.leavedate{
+ display: inline-block;
+ padding-left: 5%;
+ width:150px;
+ margin:0 auto;
+ border-radius:10px;
+ 
+}
+
+.dates{
+  width: 100%;
+  padding-left: 7%;
+}
+
+#date{
+  border-radius:5px;
+}
+
+
+#subject{
+  width: 400px;
+  margin: 0 auto;
+  display:flex;
+  align-items: center;
+  border-radius:5px;
+  
+}
+
+.boxform{
+  padding-left: 5%;
+  padding-bottom: 10%;
+  width: 100%;
+}
+
+.form{
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+  margin: auto;
+  background-color: #FBFAEF;
+  width: 440px;
+  margin-top: 50px;
+  height: 550px;
+  align-content: center;
+  display: flex;
+  font-family: 'Source Sans Pro', sans-serif;
+  box-shadow: 0px 0px 11px grey;
+  border-radius:5px;
+
+}
+
+@media screen and (max-width: 500px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html> 
+<head>
+   
+
+
+     <link rel='stylesheet' href='contact.css'>
+     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+  <style> 
+  body {
+  background-color: #fbfaef;
+  /* *{box-sizing: border-box;
+  } */
+  }
+
+  body {font-family: Arial, Helvetica, sans-serif;}
+    * {box-sizing: border-box;}
+    
+    input[type=text], select, textarea {
+      width: 85%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+    
+    input[type=submit] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+    
+    .container {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+    
+
+    body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+#myBtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        font-size: 30px;
+        border: none;
+        outline: none;
+        background-color: #717171;
+        color: white;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 4px;
+      }
+
+      #myBtn:hover {
+        background-color: #555;
+      }
+
+  </style>
+
+  </head>
+<body>
+<button onclick="topFunction()" id="myBtn" title="Go to top">&#8679;</button>
+
+<h1>Welcome to Luxe Hotel</h1>
+
+<div class="navi">
+  <a class="active" href="home.html">Home</a>
+  <a href="about.html">About Us</a>
+  <a href="gallery2.html">Gallery</a>
+  <a href="book.html">Book</a>
+  <a href="contact.html">Contact Us</a>
+</div>
+
+<div class="heading">
+    <h2>Contact us</h2>
+</div>
+
+<div class="main">
+ <u><h3>Keep in touch</h3></u>
+  <p> To find out more about what we offer or for any questions or queries please find the relevelent contact information here. Our friendly team are always on hand to answer your calls/emails and provide the best service.</p>
+
+    <p> Alternatively use the book page to reserve and book your room.  </p>
+</div>
+<div class="mapbox">
+<div class = 'box'>
+    <p><b>Tel:</b> +44 1123 404 567</p>
+    <p><b>Email:</b> luxehotel@luxuryworldwide.co.uk</p>
+    <p><b>Address:</b> 1 Bishops way<br>
+        &emsp;&emsp;&emsp;&emsp;&ensp; Woolbeding<br>
+        &emsp;&emsp;&emsp;&emsp;&ensp; Petworth<br>
+        &emsp;&emsp;&emsp;&emsp;&ensp; West Sussex<br>
+        &emsp;&emsp;&emsp;&emsp;&ensp; GU28 0NN
+      </p>
+    </div>
+    
+    <!-- <h4>Enquiry form:</h4> -->
+
+    <div class="map">
+      <iframe width="500" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=south%20downs&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+      </iframe>
+    </div>
+    </div>
+    <!-- </select> -->
+    
+    <div class="enquiryform">
+      <!-- <h4>Enquiry form:</h4>  
+      <form>
+        <textarea id="Email" placeholder="Email Address" style="height:40px"></textarea>
+        <textarea id="subject" placeholder="Subject of enquiry" style=height:40px"></textarea>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+      </form> -->
+      
+<div class="container">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>Swing by our reception, or leave us a message:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="archway.jpg" style="width:90%">
+    </div>
+    <div class="column">
+      <form action="enquiry.html">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" required placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" required placeholder="Your last name..">
+        <label for="lname">Email address</label>
+        <input type="text" id="email" name="email" required placeholder="Your email address..">
+        <label for="enq">Enquiry topic</label>
+        <select id="enq" name="Enquiry topic" required>
+          <option value="wed">Wedding arrangments</option>
+          <option value="booking">Hotel room booking</option>
+          <option value="catering">Catering</option>
+          <option value="other">Other</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+    </div>
+    
+
+    <script src="button.js"></script>
+
+</body>
+
+  
+  
+
+
